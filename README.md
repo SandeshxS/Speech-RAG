@@ -1,6 +1,6 @@
 # SpeechRAG
 
-An end-to-end AI assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes locally with Whisper, translates Hindi speech to English when needed, summarizes with an LLM, and lets you chat with the transcript using RAG.
+An end-to-end RAG assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes locally with Whisper, translates Hindi speech to English when needed, summarizes with an LLM, and lets you chat with the transcript using RAG.
 
 ## Features
 
