@@ -1,11 +1,11 @@
 # SpeechRAG
 
-An end-to-end RAG assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes locally with Whisper, translates Hindi speech to English when needed, summarizes with an LLM, and lets you chat with the transcript using RAG.
+An end-to-end RAG assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes, translates Hindi speech to English using Sarvam AI API, summarizes with an LLM, and lets you chat with the transcript using RAG.
 
 ## Features
 
 **🎥 Flexible input** — paste a YouTube URL or upload an audio file directly
-**🗣️ Local transcription** — speech-to-text via faster-whisper, runs on your own machine (no audio leaves your device for this step)
+**🗣️ Transcription** — speech-to-text via Sarvam AI API
 **🌐 Hindi → English translation** — automatic language detection and translation using the Sarvam AI API
 **📝 Meeting summarization** — LangChain LCEL pipeline on Groq's free-tier LLMs to generate a summary, key decisions, and action items
 **💬 Chat with your transcript** — RAG pipeline built on ChromaDB + HuggingFace embeddings for grounded Q&A over the meeting content
@@ -15,7 +15,7 @@ An end-to-end RAG assistant that turns raw audio — from a YouTube link or an u
 
 ## How it works
 
-**YouTube URL / Audio Upload**
+YouTube URL / Audio Upload
         │
         ▼
   yt-dlp (if URL) ──► extract audio
