@@ -1,8 +1,8 @@
-# AI-Video-Assistant
+# SpeechRAG
 
 An end-to-end AI assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes locally with Whisper, translates Hindi speech to English when needed, summarizes with an LLM, and lets you chat with the transcript using RAG.
 
-Features
+#Features
 🎥 Flexible input — paste a YouTube URL or upload an audio file directly
 🗣️ Local transcription — speech-to-text via faster-whisper, runs on your own machine (no audio leaves your device for this step)
 🌐 Hindi → English translation — automatic language detection and translation using the Sarvam AI API
@@ -12,7 +12,7 @@ Features
 🖥️ Simple UI — built entirely in Streamlit
 
 
-How it works
+#How it works
 
 YouTube URL / Audio Upload
         │
