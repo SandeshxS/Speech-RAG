@@ -1,4 +1,4 @@
-# SpeechRAG
+# Speech-RAG
 
 An end-to-end RAG assistant that turns raw audio — from a YouTube link or an uploaded file — into a searchable, summarized record. It transcribes, translates Hindi speech to English using Sarvam AI API, summarizes with an LLM, and lets you chat with the transcript using RAG.
 
@@ -15,6 +15,7 @@ An end-to-end RAG assistant that turns raw audio — from a YouTube link or an u
 
 ## How it works
 
+​```
 YouTube URL / Audio Upload
         │
         ▼
@@ -34,3 +35,4 @@ YouTube URL / Audio Upload
         │
         ▼
   Streamlit UI ──► view results, chat with transcript, export PDF/TXT
+​```
