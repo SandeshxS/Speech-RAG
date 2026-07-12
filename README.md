@@ -15,7 +15,7 @@ An end-to-end RAG assistant that turns raw audio — from a YouTube link or an u
 
 ## How it works
 
-​```
+```
 YouTube URL / Audio Upload
         │
         ▼
@@ -35,4 +35,5 @@ YouTube URL / Audio Upload
         │
         ▼
   Streamlit UI ──► view results, chat with transcript, export PDF/TXT
-​```
+
+```
