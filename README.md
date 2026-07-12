@@ -16,7 +16,7 @@ An end-to-end RAG assistant that turns raw audio — from a YouTube link or an u
 ## How it works
 
 ```
-YouTube URL / Audio Upload
+  YouTube URL / Audio Upload
         │
         ▼
   yt-dlp (if URL) ──► extract audio
