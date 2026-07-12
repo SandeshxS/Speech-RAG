@@ -22,10 +22,7 @@ YouTube URL / Audio Upload
   yt-dlp (if URL) ──► extract audio
         │
         ▼
-  Sarvam AI API ──► transcript (language detection)
-        │
-        ▼
-  Sarvam AI API ──► Hindi → English translation (if needed)
+  Sarvam AI API ──► transcript / Hindi → English translation
         │
         ▼
   LangChain LCEL + Groq ──► summary, key decisions, action items
