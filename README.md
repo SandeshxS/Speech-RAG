@@ -21,7 +21,7 @@ YouTube URL / Audio Upload
   yt-dlp (if URL) ──► extract audio
         │
         ▼
-  faster-whisper ──► transcript (+ language detection)
+  Sarvam AI API ──► transcript (language detection)
         │
         ▼
   Sarvam AI API ──► Hindi → English translation (if needed)
