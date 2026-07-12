@@ -4,13 +4,13 @@ An end-to-end RAG assistant that turns raw audio — from a YouTube link or an u
 
 ## Features
 
-**🎥 Flexible input** — paste a YouTube URL or upload an audio file directly
-**🗣️ Transcription** — speech-to-text via Sarvam AI API
-**🌐 Hindi → English translation** — automatic language detection and translation using the Sarvam AI API
-**📝 Meeting summarization** — LangChain LCEL pipeline on Groq's free-tier LLMs to generate a summary, key decisions, and action items
-**💬 Chat with your transcript** — RAG pipeline built on ChromaDB + HuggingFace embeddings for grounded Q&A over the meeting content
-**📄 Export** — download results as PDF or TXT
-**🖥️ Simple UI** — built entirely in Streamlit
+- **🎥 Flexible input** — paste a YouTube URL or upload an audio file directly
+- **🗣️ Transcription** — speech-to-text via Sarvam AI API
+- **🌐 Hindi → English translation** — automatic language detection and translation using the Sarvam AI API
+- **📝 Meeting summarization** — LangChain LCEL pipeline on Groq's free-tier LLMs to generate a summary, key decisions, and action items
+- **💬 Chat with your transcript** — RAG pipeline built on ChromaDB + HuggingFace embeddings for grounded Q&A over the meeting content
+- **📄 Export** — download results as PDF or TXT
+- **🖥️ Simple UI** — built entirely in Streamlit
 
 
 ## How it works
